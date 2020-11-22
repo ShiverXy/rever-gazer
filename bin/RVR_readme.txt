@@ -29,37 +29,129 @@ CONTROLS
 | C |_ _ _| |_ _ _|  3 |
 |      ?       !       |
   - - - - - - - - - - - 
-  
-BUTTON A
- - Preview: Shows off some sprites.
- 
- BUTTON B
- - Music: Shows off some songs.
- 
- BUTTON C
- - Cancel: Quits the application.
 
+----------------------  
+BUTTON A / KEYBOARD Z
+----------------------  
+
+ ⋆ New/Load Screen
+   - Preview: Shows off some sprites.
+   
+ ⋆ Standby
+   - Feed: Brings up a menu showing meat, veg, fish and nectar. Cycle with A,
+   select with B.
+   - Remedy: Attempts to cure a Reverian of illness or injury. The lesser
+   the life state, the higher the chance of curing illness or injury
+   - Cleanse: Flushes away any waste on-screen.
+   - Lights: Darkens the screen if the Reverian falls asleep.
+   
+   - Item (Right Click): Brings up a menu of the inventory. Cycle with A,
+   select with B.
+
+----------------------     
+BUTTON B / KEYBOARD X
+----------------------  
+
+  ⋆ New/Load Screen
+   - Music: Shows off some songs.
+   
+  ⋆ Standby
+   - Explore: Brings up a selection of actions; Train 
+
+----------------------   
+BUTTON C / KEYBOARD C
+----------------------  
+
+  ⋆ New/Load Screen
+   - Cancel: Quits the application.
+   
+  ⋆ Standby
+   - Records: Shows an overview of the Reverian's overall stats.
+   - Cancel: Backs out of any prompt.
+   
+   - Interrogate (Right Click): Causes a reaction depending on how the
+   Reverian is feeling.
+
+----------------------  
 BUTTON 1
- - Cycle: Scrolls through a selection, select with 2.
+----------------------  
 
+ ⋆ New/Load Screen
+   - Cycle: Scrolls through a selection, select with 2.
+   
+ ⋆ Standby
+   - Same controls as parallel button A.
+
+----------------------     
 BUTTON 2
- - Select: Plays a cry or song.
+----------------------  
 
+ ⋆ New/Load Screen
+   - Select: Plays a cry or song.
+   
+ ⋆ Standby
+   - Same controls as parallel button B.
+
+----------------------  
 BUTTON 3
- - Cancel: Backs out of a prompt.
+----------------------  
 
-Button ?
-- Does nothing.
+ ⋆ New/Load Screen
+   - Cancel: Backs out of a prompt.
+   
+ ⋆ Standby
+   - Same controls as parallel button C.
 
-Button !
-- Does nothing.
+----------------------     
+BUTTON ?
+----------------------  
+ ⋆ New/Load Screen
+   - Creates a new file.   
+   
+ ⋆ Standby
+   - Observe: Shows the in-game date and time, as well as environment
+   conditions.
+   - Quit (Right Click): Shows a prompt to quit to the New/Load screen or
+   continue.
+
+----------------------  
+BUTTON !
+----------------------  
+
+ ⋆ New/Load Screen
+   - Loads a save file.   
+   
+ ⋆ Standby
+   - Save: Brings up a window prompt to save the game.
+   - Load (Right Click): Brings up a prompt to load a save, overwriting the
+   current session.
+   
+----------------------  
+KEYBOARD MISC.
+----------------------  
+ ⋆ New/Load Screen
+   - F1: Launches the help file.
+   
+//////////////////////////////////////////////////////////////////////////////
+VERSIONS
+//////////////////////////////////////////////////////////////////////////////
+
+Ver. 1 - 
+Ver. 1 - 
+Ver. 1 - 
+Ver. 1 - 
+Ver. 1 - 
 
 //////////////////////////////////////////////////////////////////////////////
 KNOWN ISSUES
 //////////////////////////////////////////////////////////////////////////////
 
  - The HELP button on the launcher won't function if RVR_readme.txt isn't
-present in the same directory as RVRGZR.exe.
+present in the same directory as RVRGZR.exe. 
+
+ - Music samples are still quite quiet compared to other sounds.
+ 
+ - There is no pausing.
 
 ////////////////////////////////////////////////////////////////////////////// 
 SOFTWARE USED
@@ -70,7 +162,36 @@ SOFTWARE USED
  - LabChirp
  - Gravit Designer
  - LMMS
-
+ 
+////////////////////////////////////////////////////////////////////////////// 
+PATCH NOTES
+//////////////////////////////////////////////////////////////////////////////
+------------
+0.0.4
+------------
+- Slightly less unplayable
+- All buttons now respond to clicking input, irregardless if it advances the
+ scene or not
+- Fixed muted buttons on Music screen
+- Load prompt accepts *.arr and *.rvr saves
+- Readme updated
+- Slight delay before quitting through New/Load prompt
+- Version number on executable fixed
+------------
+0.0.3
+------------
+- Now detects system locale
+- More songs and cancel sfx added
+------------
+0.0.2
+------------
+- Sprites and songs now roll back to the first frame
+- Launcher and readme added
+------------
+0.0.1
+------------
+- Initial pre-pre-alpha
+------------
 ////////////////////////////////////////////////////////////////////////////// 
 LAUNCHING 20/12/20
 //////////////////////////////////////////////////////////////////////////////
