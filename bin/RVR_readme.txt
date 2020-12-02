@@ -111,8 +111,8 @@ BUTTON ?
  ⋆ Standby
    - Observe: Shows the in-game date and time, as well as environment
    conditions.
-   - Quit (Right Click): Shows a prompt to quit to the New/Load screen or
-   continue.
+   - Quit (Right Click): Shows a prompt to quit the application or
+   continue playing.
 
 ----------------------  
 BUTTON !
@@ -125,39 +125,30 @@ BUTTON !
    - Save: Brings up a window prompt to save the game.
    - Load (Right Click): Brings up a prompt to load a save, overwriting the
    current session.
-   
-----------------------  
-KEYBOARD MISC.
-----------------------  
- ⋆ New/Load Screen
-   - F1: Launches the help file.
-   
-//////////////////////////////////////////////////////////////////////////////
-VERSIONS
-//////////////////////////////////////////////////////////////////////////////
-
-Ver. 1 - 
-Ver. 1 - 
-Ver. 1 - 
-Ver. 1 - 
-Ver. 1 - 
 
 //////////////////////////////////////////////////////////////////////////////
 KNOWN ISSUES
 //////////////////////////////////////////////////////////////////////////////
 
- - The HELP button on the launcher won't function if RVR_readme.txt isn't
-present in the same directory as RVRGZR.exe. 
-
  - Music samples are still quite quiet compared to other sounds.
  
- - There is no pausing.
+ - Hatching/evolution sequences may lock up on a flashing black screen.
+
+ - Sometimes eggs on the left screen will not hatch.
+ 
+ - Saving doesn't work yet.
+ 
+ - Reverians on screen may freeze in the middle of an animation after quitting
+   the quit or save screen. This can be fixed by going into and quitting a
+   menu.
 
 ////////////////////////////////////////////////////////////////////////////// 
 SOFTWARE USED
 //////////////////////////////////////////////////////////////////////////////
 
  - Clickteam Fusion 2.5
+   ⋆ - Time X plugin by z33z
+   ⋆ - Popup Message object 2 by Marcello Bastea-Forte, Cellosoft
  - Aseprite
  - LabChirp
  - Gravit Designer
@@ -166,6 +157,17 @@ SOFTWARE USED
 ////////////////////////////////////////////////////////////////////////////// 
 PATCH NOTES
 //////////////////////////////////////////////////////////////////////////////
+------------
+0.0.5
+------------
+- Even less unplayable (Versions 1 and 5 implemented)
+- Mostly just cycles through animations
+- Now packed in an installer - Music and .ini files weren't included in
+  binary data
+- Eggs can now hatch (1-16 seconds)
+- No longer eligible for non-Windows ports, thanks Clickteam timers (or lack
+  thereof)
+- Discord Rich Presence initialising 
 ------------
 0.0.4
 ------------
