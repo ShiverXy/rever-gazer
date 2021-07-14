@@ -1,0 +1,33 @@
+////////////////////////////////////////////////////////////////////////////// 
+DEBUG CONTROLS
+//////////////////////////////////////////////////////////////////////////////
+
+ ⋆ Keyboard 1
+   - Set L_Hunger to 0
+   
+ ⋆ Keyboard 2
+   - Set L_Energy to 0
+   
+ ⋆ Keyboard 3
+   - Set R_Hunger to 0
+   
+ ⋆ Keyboard 4
+   - Set R_Energy to 0
+   
+ ⋆ Keyboard 5
+   - Set L_Energy to -256
+   
+ ⋆ Keyboard 6
+   - Set R_Energy to -256
+  
+ ⋆ Keyboard 7
+   - Set L_Species to prompt
+   
+ ⋆ Keyboard 8
+   - Set R_Species to prompt
+ 
+ ⋆ Keyboard 9
+   - Add 1 to L_Level
+   
+ ⋆ Keyboard 0
+   - Add 1 to R_Level
